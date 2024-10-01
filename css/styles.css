@@ -78,4 +78,11 @@ li img{
     .menu-samping.show{
         display: block;
     }
+    .menu-samping div{
+        padding: 8px 10px;
+    }
+    .menu-samping div:hover {
+        background-color: #004700;
+        cursor: pointer;
+    }
 }
