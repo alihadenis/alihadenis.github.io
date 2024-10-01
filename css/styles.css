@@ -60,6 +60,14 @@ li img{
     background-color: white;
     margin: 4px 0px;
 }
+.menu-samping{
+    display: none;
+    position: absolute;
+    background-color: #268100;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 @media(max-width:768px){
     .menu-icon{
         display: block;
@@ -67,14 +75,7 @@ li img{
     .nav-link{
         display: none;
     }
-    .menu-samping{
-        display: none;
-        position: absolute;
-        background-color: #268100;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
+
     .menu-samping.show{
         display: block;
     }
